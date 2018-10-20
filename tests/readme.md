@@ -1,5 +1,5 @@
 # Requirements:
-1) Windows OS (might work on others)
+1) Windows OS
 2) Python 3.6.5+
 3) Chrome version 70.0.3538.67
 
