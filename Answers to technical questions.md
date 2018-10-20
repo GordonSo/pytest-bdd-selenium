@@ -2,17 +2,19 @@ How long did you spend on the technical test? What would you add to your solutio
 
 
 3.5 hours in total; 1 hours to setup the machine, pageobject structure and selenium tests (without BDD)
-then I had to do some research on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
+then I had to do some research* on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
 
 Given more time, I would look at:
  - Making use of Scenario Outline and Examples to parameterise the 'postcode'
- - Separate the 'browser' fixture into a common module or 'conftest' to allow other scenario to reuse it
- - Parameterise the browser fixture to execute the test on other supported browsers, e.g. Firefox, IE...    
+ - Separate the 'browser' fixture into a common module or 'conftest' to allow future features to reuse it
+ - Parameterise the browser fixture to execute the tests on other browsers type, e.g. Firefox, IE... 
+ - Make the web-drivers headless to increase performance
+ - Capture a screenshot of the last page if a test fail to aid diagnostics
  - Checking if it is necessary to add stricter rules on locators in finding the elements
- - Seeing if there is a better way to integrate Pytest-BDD with PageObject structure
- - Get the tests reporting in Jenkins 
+ - Seeing if there is a better way to integrate Pytest-BDD with PageObject structure (*passing the browser context around between test steps does not feel right (not a functional practise) but this seems to be the common practise after spending additional time researching pytest-bdd)
+ - Get the tests reporting in Jenkins
 
-installing pyest-xdist to allow tests to execute in parallel
+Installing pyest-xdist to allow tests to execute in parallel
 
 What do you think is the most interesting trend in test automation?
  > As more company adopts the Agile, TDD; unit tests which are traditionally owned and wrote by the developers 
