@@ -1,8 +1,8 @@
 How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
 
-3 hours in total; 1.5 hours to setup the machine, pageobject structure and selenium tests (without BDD)
-then I did some research on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
+3.5 hours in total; 1 hours to setup the machine, pageobject structure and selenium tests (without BDD)
+then I had to do some research on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
 
 Given more time, I would look at:
  - Making use of Scenario Outline and Examples to parameterise the 'postcode'
@@ -37,18 +37,21 @@ How would you improve the customer experience of the Just Eat website?
 > On a similar note, a link to restaurant Instagram's page or hashtag may have similar attraction and helps customer pick and choice restaurants.
 
 Please describe yourself using JSON.
+```json
 {
 	"PersonalInfo": {
 		"FullName": "Gordon So",
 		"Gender": "M",
 		"Interests": ["Technology", "Sports"],
-		"Specialities": ["Keen to learn", "Problem solving", "Breaking/ Proving things"]
+		"Specialities": ["Keen to learn", "Problem solving", "Breaking/ Proving things"],
+		"Goal": "Advance technically to aid my curiousity on how everything work"
 	},
 	"CurrentJob": {
 		"Company": "Huddle",
 		"Title": "Principle QA",
 		"Skills": ["Python", "SQL", "C#", "RabbitMQ", "Redis", "ELK", "Test Automation"],
-		"YearsOfService": 4
+		"YearsOfService": 4,
 		"Achievements": ["Huddle of the year award", "Mentoring experience", "Learned lots of skills"]
 	}
 }
+```
