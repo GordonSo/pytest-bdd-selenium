@@ -1,8 +1,9 @@
 How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
 
-3.5 hours in total; 1 hours to setup the machine, pageobject structure and selenium tests (without BDD)
-then I had to do some research* on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
+> 3.5 hours in total; 
+> 1 hours to setup the machine, pageobject structure and selenium tests (without BDD) 
+> then 2.5 do some research on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
 
 Given more time, I would look at:
  - Making use of Scenario Outline and Examples to parameterise the 'postcode'
@@ -13,8 +14,7 @@ Given more time, I would look at:
  - Checking if it is necessary to add stricter rules on locators in finding the elements
  - Seeing if there is a better way to integrate Pytest-BDD with PageObject structure (*passing the browser context around between test steps does not feel right (not a functional practise) but this seems to be the common practise after spending additional time researching pytest-bdd)
  - Get the tests reporting in Jenkins
-
-Installing pyest-xdist to allow tests to execute in parallel
+ - Installing pyest-xdist to allow tests to execute in parallel
 
 What do you think is the most interesting trend in test automation?
  > As more company adopts the Agile, TDD; unit tests which are traditionally owned and wrote by the developers 
