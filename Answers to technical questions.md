@@ -10,14 +10,18 @@ then I did some research on pytest-bdd (PyCharm's newly supported BDD frameowork
  > - Checking if it is necessary to add stricter rules on locators in finding the elements
  > - Seeing if there is a better way to integrate Pytest-BDD with PageObject structure
  > - Get the tests reporting in Jenkins 
+ > - Install pyest-xdist to allow tests to execute in parallel
 
 installing pyest-xdist to allow tests to execute in parallel
 
 What do you think is the most interesting trend in test automation?
- > As more company adopts the Agile, TDD; unit tests which are traditionally owned and wrote by the developers 
- > are increasingly becoming contributed to by QAs either through pairing or code reviews 
- > this shows that there is increasing demands in for QA to be proficient in production code's language 
- > and there is a trend that test automation is co-owned.
+> I think the most interesting trend in test automation is that it is transforming QAs into engineers with a specialty in testing.
+ > As companies adopt approaches such as agile, TDD and "Shift left" activities to bring forward feedback loops, 
+ > there are increasing demand for test automation and for them to take place throughout the software develop life cycle for continuous delivery.
+ > We see that unit tests are increasingly being contributed to by QAs through pairing or code reviews, 
+ > and are being co-owned between DEVs and QAs, and it has become a mandatory requirement (instead of "optional") for QA to understand and write code
+ > Microsoft and MoonPig are two examples who had undergone the transformation.
+ 
  
 How would you implement test automation in a legacy application? Have you ever had to do this?
  > Legacy application is commonly big and complicated, and implementing test automation can be time consuming.
