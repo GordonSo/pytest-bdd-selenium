@@ -33,8 +33,8 @@ How would you implement test automation in a legacy application? Have you ever h
  
 How would you improve the customer experience of the Just Eat website?
 > - Further to search order, a order by 'discount' or 'offers' would be great for customer to evaluate which could be best value for money
-> - Allow customers to upload pictures of their delivery which can then be linked back to the food menu must allow the next customer to have a richer visual information than only in the star ratings and text based feedback.
-> - On a similar note, a link to restaurant Instagram's page or hashtag may have similar impact and to draw customer's interests to pick and choice restaurants. (Personally, I have been attracted to restaurants by food pictures on Instragram, maybe it can have the same impact for food delivery)
+> - Allow customers to upload pictures of their delivery which can then be linked back to the food menu must allow the next customer to have a richer visual experience than just star ratings and textual feedbacks.
+> - Linkage to restaurant Instagram's page or hashtag page may also have similar impact for drawing customer when deciding between restaurants. (This is inspired by my personal experience, as I have been attracted to restaurants by food pictures on Instragram, maybe it can have the same impact for food delivery?)
 
 Please describe yourself using JSON.
 ```json
