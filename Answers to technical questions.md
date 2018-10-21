@@ -32,10 +32,9 @@ How would you implement test automation in a legacy application? Have you ever h
  > capturing the expected behaviours and data model from the old model and introduce API tests on the new services to ensure that the behaviours are the same. 
  
 How would you improve the customer experience of the Just Eat website?
-> The default search order by "best match" when I haven't entered any keywords, maybe 'avg rating' will suggest better recommendation on me (although maybe some A/B test experiment was already done to prove the contrary?)
-> Further to search order, a order by 'discount' or 'offers' would be great for customer to evaluate which could be best value for money
-> Allow customers to upload pictures of their delivery which can then be linked back to the food menu must allow the next customer to have a richer visual information than only in the star ratings and text based feedback.
-> On a similar note, a link to restaurant Instagram's page or hashtag may have similar attraction and helps customer pick and choice restaurants.
+> - Further to search order, a order by 'discount' or 'offers' would be great for customer to evaluate which could be best value for money
+> - Allow customers to upload pictures of their delivery which can then be linked back to the food menu must allow the next customer to have a richer visual information than only in the star ratings and text based feedback.
+> - On a similar note, a link to restaurant Instagram's page or hashtag may have similar impact and to draw customer's interests to pick and choice restaurants. (Personally, I have been attracted to restaurants by food pictures on Instragram, maybe it can have the same impact for food delivery)
 
 Please describe yourself using JSON.
 ```json
