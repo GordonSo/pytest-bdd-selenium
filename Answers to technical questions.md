@@ -38,6 +38,7 @@ How would you improve the customer experience of the Just Eat website?
 > On a similar note, a link to restaurant Instagram's page or hashtag may have similar attraction and helps customer pick and choice restaurants.
 
 Please describe yourself using JSON.
+```json
 {
 	"PersonalInfo": {
 		"FullName": "Gordon So",
@@ -53,3 +54,4 @@ Please describe yourself using JSON.
 		"Achievements": ["Huddle of the year award", "Mentoring experience", "Learned lots of skills"]
 	}
 }
+```
