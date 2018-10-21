@@ -50,7 +50,7 @@ Please describe yourself using JSON.
 		"Company": "Huddle",
 		"Title": "Principle QA",
 		"Skills": ["Python", "SQL", "C#", "RabbitMQ", "Redis", "ELK", "Test Automation"],
-		"YearsOfService": 4
+		"YearsOfService": 4,
 		"Achievements": ["Huddle of the year award", "Mentoring experience", "Learned lots of skills"]
 	}
 }
