@@ -4,12 +4,12 @@ How long did you spend on the technical test? What would you add to your solutio
 then I did some research on pytest-bdd (PyCharm's newly supported BDD frameowork since 2018.2)
 >
 > Given more time, I would look at:
- > - Making use of Scenario Outline and Examples to parameterise the 'postcode'
+ > - Make use of Scenario Outline and Examples to parameterise the 'postcode'
  > - Separate the 'browser' fixture into a common module or 'conftest' to allow other scenario to reuse it
  > - Parameterise the browser fixture to execute the test on other supported browsers, e.g. Firefox, IE...    
- > - Checking if it is necessary to add stricter rules on locators in finding the elements
- > - Seeing if there is a better way to integrate Pytest-BDD with PageObject structure
- > - Get the tests reporting in Jenkins 
+ > - Check if it is necessary to add stricter rules on locators in finding the elements
+ > - See if there is a better way to integrate Pytest-BDD with PageObject structure
+ > - Get the tests reporting in Jenkins if required
  > - Install pyest-xdist to allow tests to execute in parallel
 
 installing pyest-xdist to allow tests to execute in parallel
