@@ -15,6 +15,7 @@ def browser():
     _browser = WebDriver(os.path.join(dir_path, "chromedriver.exe"))
     yield _browser
     _browser.close()
+    _browser.quit()
 
 
 @given(parsers.parse('I want food in "{postcode}"'))
